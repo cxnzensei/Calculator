@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <header>Calculator</header>
+        <main class="guidelines">
+            <p>For incorporating a negative value as first operand, first enter the value and then use plusMinus operator and then hit equals.</p>
+            <p>IF you get an "undefined" result (while using operations like power, square, square-root, inverse), hit the operator again or hit C/CE/F5 and do it again, you'll get the proper result.</p>
+            <p>If you hit multiple operators one after the other, the currently displayed operator will get replaced by the latest operator.</p>
+        </main>
+        <div class="calculator" id="calculator">
+            <div><input type="text" class="display" id="display" disabled></div> 
+            <div class="buttons" id="buttons">
+                <div class="row" id="row">
+                    <button value=" % " class="operation" id="operator">%</button>
+                    <button value="CE" class="operation" id="black">CE</button>
+                    <button value="C" class="operation" id="black">C</button>
+                    <button value="DEL" id="black">DEL</button>
+                    <button value=" / " class="operation" id="operator">&#247</button>
+                </div>
+                <div class="row" id="row">
+                    <button value=" ^0.5 " class="operation" id="operator"><sup>2</sup>√</button>
+                    <button value="7">7</button>
+                    <button value="8">8</button>
+                    <button value="9">9</button>
+                    <button value=" * " class="operation" id="operator">x</button>
+                </div>
+                <div class="row" id="row">
+                    <button value=" ^2 " class="operation" id="operator">x<sup>2</sup></button>
+                    <button value="4">4</button>
+                    <button value="5">5</button>
+                    <button value="6">6</button>
+                    <button value=" - " class="operation" id="operator">-</button>
+                </div>
+                <div class="row" id="row">
+                    <button value=" ^ " class="operation" id="operator">x<sup>n</sup></button>
+                    <button value="1">1</button>
+                    <button value="2">2</button>
+                    <button value="3">3</button>
+                    <button value=" + " class="operation" id="operator">+</button>
+                </div>
+                <div class="row" id="row">
+                    <button value=" ^-1 " class="operation" id="operator">1/x</button>
+                    <button value=" (-1) " class="operation" id="operator">&#177</button>
+                    <button value="0">0</button>
+                    <button value="." id="decimal">.</button>
+                    <button value=" = " class="operation" id="operator">=</button>
+                </div>
+            </div>
+        </div>
+        <footer> 
+            <a href="https://github.com/cxnzensei" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png" alt="github logo" class="github-logo">
+            </a>
+        </footer>
+    </body>
+</html>
