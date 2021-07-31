@@ -11,4 +11,4 @@ It covers easy to a bit moderate string and array manipulation and creation of f
 
 # To Clone This Repository
 
-git clone git@github.com:cxnzensei/calculator.git
+`git clone git@github.com:cxnzensei/calculator.git`
