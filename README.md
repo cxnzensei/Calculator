@@ -2,7 +2,7 @@
 
 A simple calculator using HTML, CSS and JS.
 
-It involves basic operations and basic operators as well as a few additional operations like square, square-root, power and inverse along with a plusMinus and a percentage operator.
+It involves basic operations as well as a few additional operations like square, square-root, power, inverse, percentage and plusMinus.
 I've included a few points in the calculator page, feel free to check it 
 
 # => [HERE](https://cxnzensei.github.io/calculator/)
